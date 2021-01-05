@@ -5,6 +5,7 @@
   user-select: none;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  
 }
 body{
   background-image: url(background.jpg);
@@ -42,7 +43,6 @@ nav ul{
   position: relative;
 }
 nav ul li{
-  float: left;
   display: inline-block;
   background: #1b1b1b;
   margin: 0 5px;
@@ -223,4 +223,20 @@ margin: auto;
 .mitre{
   background-image: "radio-noventa.jpg";
   text-align: center;
+}
+
+#close {
+  float: right;
+  font-weight: bold;
+  color: red;
+}
+
+#close a{
+  height: 10px;
+  width: 10px;
+}
+#element {
+  min-height: 100px;
+  box-shadow: 0 2px 5px #666666;
+  padding: 10px;
 }
