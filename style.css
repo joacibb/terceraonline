@@ -188,9 +188,11 @@ p{
   font-weight: 500;
 }
 .google_search img{
-width: 150px;
-height: 150px;
+width: 200px;
+height: 200px;
 padding: 30px;
+display: block;
+margin: auto;
 }
 
 .google_search p{
