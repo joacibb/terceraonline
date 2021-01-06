@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<!-- Inspirado en el codigo de: CodingNepal -->
-<html lang="en" dir="ltr">
+<!-- NAV Inspirado en el codigo de: CodingNepal -->
+<html lang="es" dir="ltr">
 
 <head>
     <meta charset="utf-8">
@@ -9,24 +9,11 @@
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#hide").on('click', function () {
-                $("#element").hide();
-                return false;
-            });
-
-            $("#show").on('click', function () {
-                $("#element").show();
-                return false;
-            });
-        });
-    </script>
 </head>
 
 <body>
     <nav>
-        <div class="logo">TerceraOnline</div>
+        <div class="logo"><a href="index.html">TerceraOnline</a></div>
         <label for="btn" class="icon">
             <span class="fa fa-bars"></span>
         </label>
@@ -71,11 +58,6 @@
                     target="_BLANK">Clima</a></li>
         </ul>
     </nav>
-    <script>
-        $('.icon').click(function () {
-            $('span').toggleClass("cancel");
-        });
-    </script>
     <br>
     <div class="google_search">
         <a href="https://www.google.com.ar" target="_BLANK"><img src="google.png" alt="google, buscador"

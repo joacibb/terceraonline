@@ -54,6 +54,10 @@ nav .logo{
   line-height: 70px;
   padding-left: 60px;
 }
+nav .logo a{
+  color: white;
+  text-decoration: none;
+}
 nav ul{
   float: right;
   margin-right: 40px;
