@@ -203,6 +203,12 @@ padding: 30px;
 display: block;
 margin: auto;
 }
+.google_search a{
+  color: rgb(0, 0, 0);
+}
+.google_search a:hover{
+  color: rgb(95, 75, 39);
+}
 
 .google_search p{
   text-align: center;
